@@ -1,0 +1,316 @@
+/* line 1, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+body {
+  font-family: Tahoma, Geneva, Kalimati, sans-serif;
+  color: #3E2924;
+  padding-top: 37px;
+}
+
+@media (min-width: 544px) {
+  /* line 7, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+  body {
+    padding-top: 72px;
+  }
+}
+/* line 12, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.container.with-padding, .container-fluid.with-padding {
+  padding-top: 42px;
+}
+
+/* line 15, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+header {
+  z-index: 200;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* line 22, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.subtitle {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 800;
+}
+
+/* line 28, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.second-background {
+  background-color: #f9f8f8;
+}
+
+/* line 31, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.light {
+  color: #8B6149;
+}
+
+/* line 34, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.tac {
+  text-align: center;
+}
+
+/* line 37, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+h3, h4 {
+  color: #3E2924;
+}
+
+/* line 40, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.mb36 {
+  margin-bottom: 36px;
+}
+
+/* line 44, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+h3.title {
+  margin-bottom: 60px;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/* line 50, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+a {
+  color: #3E2924;
+  transition: color 0.4s, opacity 0.2s;
+  opacity: 1;
+}
+/* line 54, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+a:hover {
+  text-decoration: none;
+  color: #3E2924;
+  opacity: 0.56;
+}
+
+/* line 61, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+header .logo {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  width: 80px;
+  margin-left: 4px;
+}
+/* line 67, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+header .menu {
+  float: right;
+}
+/* line 69, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+header .menu a {
+  margin: 8px 4px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: Caviar Dreams, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+/* line 77, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+header .coffe_separated {
+  text-align: center;
+  display: inline-block;
+  width: 64px;
+}
+/* line 81, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+header .coffe_separated img {
+  transition: width 0.2s;
+  width: 9px;
+}
+/* line 86, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+header .coffe_separated:hover img {
+  width: 13px;
+}
+
+@media (min-width: 544px) {
+  /* line 91, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+  header .logo {
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 97, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+  header .menu a {
+    margin: 20px 4px;
+    font-size: 16px;
+  }
+}
+/* line 102, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.banner {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* line 109, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.banner .title {
+  letter-spacing: 0.7px;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 46px;
+}
+/* line 117, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.banner .overview {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.6px;
+  opacity: 0.9;
+  margin-bottom: 46px;
+}
+
+/* line 125, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.contact .icon, .contact .info {
+  display: inline-block;
+  text-align: center;
+}
+/* line 128, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.contact .icon {
+  width: 48px;
+}
+/* line 130, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.contact .icon img {
+  vertical-align: text-bottom;
+}
+/* line 132, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.contact .phone {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+/* line 137, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.contact .email {
+  text-transform: uppercase;
+}
+
+/* line 141, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.border-block {
+  box-shadow: 0px 3px 10px -1px rgba(62, 41, 36, 0.13);
+  padding: 24px 12px;
+}
+/* line 144, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.border-block.big {
+  padding: 36px 36px 12px 36px;
+}
+/* line 146, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.border-block.big p {
+  font-size: 16px;
+  line-height: 24px;
+}
+/* line 150, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.border-block img {
+  margin-bottom: 32px;
+}
+/* line 154, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.border-block p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 161, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.feature-block img {
+  box-shadow: 0px 3px 10px -1px rgba(62, 41, 36, 0.13);
+  width: 100%;
+}
+/* line 166, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.feature-block .hover-text {
+  bottom: -1px;
+  position: absolute;
+  width: 100%;
+  padding: 8px;
+  display: inline-block;
+  margin-left: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+/* line 176, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.hover-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 180, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+img.full {
+  width: 100%;
+}
+
+/* line 183, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+footer {
+  background-color: #b49c90;
+}
+/* line 185, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+footer .credentials {
+  padding-top: 60px;
+  padding-bottom: 72px;
+}
+/* line 189, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+footer p {
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+/* line 194, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.scroll-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  right: 24px;
+  bottom: 12px;
+}
+/* line 201, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.scroll-top img {
+  transition: opacity 0.2s;
+  opacity: 0.67;
+  width: 42px;
+}
+/* line 207, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.scroll-top:hover img {
+  opacity: 1;
+}
+
+/* line 213, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.slider .bx-viewport {
+  height: 81px !important;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90% !important;
+}
+/* line 218, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.slider .bx-pager {
+  display: none;
+}
+/* line 220, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.slider img {
+  max-width: 300px;
+  width: auto !important;
+  max-height: 36px;
+  margin-top: 23px;
+}
+/* line 225, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.slider .bx-wrapper {
+  margin-bottom: 0;
+}
+/* line 227, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.slider .bx-wrapper a {
+  top: 56%;
+}
+/* line 229, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.slider .bx-prev, .slider .bx-next {
+  width: 33px !important;
+  height: 36px !important;
+  background-position: 0 0;
+  opacity: 0.67;
+  transition: opacity 0.2s;
+}
+/* line 235, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.slider .bx-prev:hover, .slider .bx-prev:focus, .slider .bx-next:hover, .slider .bx-next:focus {
+  opacity: 1;
+  background-position: 0 0;
+}
+/* line 239, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.slider .bx-prev {
+  background-image: url("left.png");
+}
+/* line 241, /Users/max/code/zholy/app/assets/stylesheets/main.sass */
+.slider .bx-next {
+  background-image: url("right.png");
+}

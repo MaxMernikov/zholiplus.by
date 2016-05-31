@@ -1,0 +1,39 @@
+// This is a manifest file that'll be compiled into application.js, which will include all the files
+// listed below.
+//
+// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
+// or any plugin's vendor/assets/javascripts directory can be referenced here using a relative path.
+//
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// compiled file.
+//
+// Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
+// about supported directives.
+//
+
+
+
+
+$(function() {
+  $('.border-block').matchHeight({ property: 'min-height' });
+
+  $('.js-scroll-to').click(function(event) {
+    event.preventDefault()
+
+    $('#about_us').position().top
+    $.scrollTo($( $(this).attr('href') ).position().top - $('header').outerHeight(), 450);
+  })
+
+  $('.js-scroll-top').click(function(event) {
+    event.preventDefault()
+    $.scrollTo(0, 900);
+  })
+
+  $('.slideshow').bxSlider({
+    slideWidth: 300,
+    minSlides: 2,
+    maxSlides: 4,
+    moveSlides: 1,
+    slideMargin: 60
+  });
+});
